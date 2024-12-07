@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="mainnav">
+        <nav class="navbar">
+            <div class="nav-main brand">Lk.Bahaa</div>
+            <div class="nav-main nav-links">
+                <div class="elnav"><a href="#about">About</a></div>
+                <div class="elnav"><a href="#skills">Skills</a></div>
+                <div class="elnav"><a href="#projects">Projects</a></div>
+                <div class="elnav"><a href="#contact">Contact</a></div>
+            </div>
+        </nav>
+    </div>
+    <section class="me">
+        <div class="abt1">
+        <img src="./images/20241203_1733382.jpg" alt="" id="pic">
+        </div>
+        <div class="abt2">
+            <h1>Hi There!</h1>
+            <h1>I am lekhchine Bahaa</h1>
+            <h1>
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            </h1>
+        </div>
+    </section>
+    <section id="about" class="about" style="padding-top: 100px;">
+        <div>
+        <h1>About me</h1>
+        </div>
+        <div>
+        <fieldset class="exp">
+        
+            <span>
+                Hey there! I'm Bahaa — a curious mind, tech enthusiast, and all-around tinkerer.<br>
+I love diving into the world of code, breaking things (on purpose, promise!), and figuring out how to put them back together better than before.<br>
+
+Whether it's experimenting with cybersecurity tools, solving tricky programming puzzles, or squeezing every last drop of performance from an old Linux PC, I’m all about the thrill of learning and creating.<br>
+
+When I’m not geeking out over tech, you might find me exploring YouTube for the latest CCNA tutorials, brainstorming clever solutions to real-world problems, or just enjoying a good cup of coffee while dreaming up my next project.<br>
+
+This portfolio is a collection of my favorite experiments, challenges, and creative adventures.<br>
+Let’s connect if you’d like to collaborate, chat, or just share cool ideas!<br>Here are some information about me :
+            </span>
+            <ul>
+                <li>Student of the highest school of computer science ESI(ex.INI)</li>
+                <li>Front end developper</li>
+                <li>Python developper</li>
+                <li>Networking expert</li>
+                <li>ETIC (aka best club in esi ) member</li>
+                <li>Google developpers group algiers member</li>
+            </ul>
+        </fieldset>
+        </div>
+    </section>
+    <section class="skillsm" style="padding-bottom: 30px; padding-top: 100px;" id="skills">
+        <h1 style="padding-bottom: 20px;">Skills</h1>
+        <fieldset class="fieldskill"     style="    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); border-radius: 20px;" >
+        <div class="skills">
+                <div class="skill" >
+                    <img src="./images/completer.png" class="icn" style="padding-right: 30px;" >
+                    Python
+                </div>
+                <div class="skill">
+                    <img src="./images/completer.png" class="icn" style="padding-right: 30px;" >
+                    Front end developpment</div>
+                <div class="skill">
+                    <img src="./images/completer.png" class="icn" style="padding-right: 30px;" >
+                    CCNA and networking</div>
+                <div class="skill">
+                    <img src="./images/completer.png" class="icn" style="padding-right: 30px;" >
+                    CS50 course taker
+                </div>
+        </div>
+        </fieldset>
+    </section>
+    <section class="projectsm" id="projects" style="padding-top: 100px;">
+        <h1 style="padding-bottom: 20px;">Projects</h1>
+            <div class="projects">
+                <div class="project active">
+                    <h3 style="padding-top: 15px;">A simple listener and its payload</h3>
+                    <p style="padding-left: 5px;">
+                        This is a simple script that sets a payload to a specific platform and receives the attacker's IP.
+                        Whenever this script executes on a device, the payload connects to the listener automatically.
+                        Using SHA-256 encoding, this script remains undetectable.
+                    </p>
+                    <a href="https://github.com/xbahaax/Payload">Check code on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>A log-in and sign-in program</h3>
+                    <p style="padding-left: 5px;">
+                        This is a simple script that performs the log-in and sign-in functions, storing
+                        credentials into a local file using Python, encrypted with MD5.
+                    </p>
+                    <a href="https://github.com/xbahaax/simple-log-In">Check code on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3 style="padding-top: 37px;">A tic-tac-toe game using Pascal</h3>
+                    <p style="padding-left: 5px;">
+                        This is a simple game created with arrays in Pascal. While it sounds easy,
+                        Pascal's syntax makes it a bit challenging. It's a great example of array manipulation.
+                    </p>
+                    <a href="https://github.com/xbahaax/Pascal-tictoe">Check code on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>My Portfolio</h3>
+                    <p style="padding-left: 5px;">Obviously my Portfolio is one of the projects that i worked on
+                        and it is a great example of my skills in web developpment and design and the manipulation
+                        of css and javascript , yet it is not the biggest But it still one of the achievments
+                        that I really proud of.
+                    </p>
+                    <a href="https://github.com/xbahaax/Portfolio">Check code on GitHub</a>
+                </div>
+            </div>
+        <div class="projects-buttons">
+            <button id="prev-project">Previous</button>
+            <button id="next-project">Next</button>
+        </div>
+    </section>
+
+    <section class="conta" id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="input-container">
+                <input type="text" id="first-name" required>
+                <label for="first-name">First Name</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="last-name" required>
+                <label for="last-name">Last Name</label>
+            </div>
+            <div class="input-container">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-container">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+        </div>
+        <button type="submit" id="submit" style="margin-top: 20px;">Send</button>
+    </section>
+    
+    <footer>
+    <div class="foot">
+        <div class="mail" style="padding-top: 5px;">lekhchinebahaa@gmail.com</div>
+        <div class="media">
+            <div>
+                <a href="https://github.com/xbahaax" class="icn" ><img src="images/github.png" alt=""></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/xiobahaax/" class="icn"><img src="images/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
